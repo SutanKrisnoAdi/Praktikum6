@@ -1,20 +1,3 @@
-# Praktikum 6
-
-Nama    : Sutan Krisno Adi
-NIM     : 312210056
-Kelas   : TI.22.C1
-
-# Tugas Praktikum
-Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan:
-    - Program dibuat dengan menggunakan DICTIONARY
-    - Tampilkan menu pilihan : (Tambah Data, Ubah Data, Hapus Data, Tampilkan Data, Cari Data)
-    - Nilai Akhir diambil dari perhitungan 3 komponen nilai(tugas:30%, UTS:35%, UAS:35%)
-    - Buat Flowchart dan penjelasan programnya pada README.md
-    - Commit dan push repository ke github.
-
-# Langkah-langkah :
-    1. Buat programnya dengan source code seperti ini:
-
 print("======>   Sutan Krisno Adi   <======")
 print("======>  Program Input Data  <======")
 print("======>      TI.22.C1        <======")
@@ -95,27 +78,3 @@ while True:
 
     else:
         print("Pilih menu yang tersedia")
-
-    BERIKUT ADALAH TAMPILAN PROGRAM:
-![image1.png](sikirinsot/sc1.png)
-![image2.png](sikirinsot/sc2.png)
-![image3.png](sikirinsot/sc3.png)
-
-    2. Hasil Run
-![image4.png](sikirinsot/op.png)
-
-# Penjelasan Program :
-    1. Buatlah Dictionary berupa Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS
-    2. Lalu inputlah menu pilihan berupa Lihat,Tambah,Ubah,Hapus,Cari,Keluar
-    3. Gunakanlah perulangan for i in range (len(Nama)):. Fungsi "len" ialah untuk mengenmbalikan panjang (jumlah anggota) dari suatu objek
-    4. Lalu inputlah Nama, NIM, Nilai Tugas, Nilai UTS, Nilai UAS
-    5. Lalu mencari nilai akhir dengan perhitungan nilai tugas 30%, nilai UTS 35%, nilai UAS 35%, dengan perintah float
-    6. Jika ingin melihat dictionary data ketik "L", jika ingin menambah data ketik "T", jika ingin mengubah data ketik "U", jika ingin menghapus ketik "H", jika ingin mencari data ketik "C" dan jika ingin keluar dari data ketik "K"
-    7. Lalu cetak dengan perintah print ("Pilih menu yang tersedia)
-    8. Selesai
-
-# Flowchart Praktikum 6
-
-![image5.png](sikirinsot/fc.jpg)
-
-# Sekian dan Matur Suwun
